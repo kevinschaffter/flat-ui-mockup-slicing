@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mockup</title>
+</head>
+<body>
+
+
+
+  <div class="left">
+
+
+    <div class="video-modal">
+      <div id="video-box">
+        <i class="fa fa-play"></i>
+      </div>
+
+      <div class="player-action">
+        <div id="pause-btn">
+          <i class="fa fa-pause"></i>
+        </div>
+        <span id="volume">
+          <div id="volume-bar">
+            <div id="volume-level">
+              <div id="volume-knob"></div>
+            </div>
+          </div>
+          <i class="fa fa-volume-up"></i>
+        </span>
+
+      </div>
+    </div>
+
+    <div id="revenue"></div>
+
+    <div id="inquiries">
+      <p>Inquiries</p>
+      <div class="progress-bars">
+        <div> <div id="one"> </div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+      </div>
+
+      <div><h2>+142</h2></div>
+
+      <div class="months">
+        <p>
+          <span>J</span>
+          <span>F</span>
+          <span>M</span>
+          <span>A</span>
+          <span>M</span>
+          <span>J</span>
+          <span>J</span>
+          <span>A</span>
+          <span>S</span>
+          <span>O</span>
+          <span>N</span>
+          <span>D</span>
+          <span class="last-year">from last year</span>
+        </p>
+      </div>
+
+    </div>
+
+  
+
+
+
+
+    <div id="gross-revenue">
+      <p>Gross Revenue
+        <span>Net Revenue</span>
+      </p>
+      <h2>9,362.74
+        <span>6,734.89</span>
+      </h2>
+    </div>
+
+  </div>
+
+  <div class="center">
+
+   <div class="tasks-container">
+    <div id="tasks">
+     <h3>Tasks Completed</h3>
+   </div>
+
+   <div id="percentage-box">
+    <div class="pie">
+      <div class="circle">
+        <h1>79</h1><span>%</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="chart">
+    <%= fa_icon "pie-chart", id: "list-icon" %>
+    <p>CHART</p>
+  </div>
+
+  <div id="task-btn">
+    <%= fa_icon "list", id: "list-icon" %>
+    <p>TASKS</p>
+  </div>
+
+  <div id="events-btn">
+    <%= fa_icon "map-marker", id: "list-icon" %>
+    <p>EVENTS</p>
+  </div>
+
+</div>
+
+<div class="mailbox-container">
+
+  <div id="mailbox-header">
+    <h3>Mailbox</h3>
+  </div>
+
+  <div id="mailbox-cells">
+    <h3 class="mail-text"><%= fa_icon "inbox", class: "mailbox-icons inbox-icon" %>Inbox
+    </h3>
+
+    <div id="inbox-counter">
+      <span class="counter">3</span>
+    </div>
+
+
+  </div>
+
+  <div id="mailbox-cells">
+    <h3 class="mail-text"><%= fa_icon "star", class: "mailbox-icons" %>Starred
+    </h3>
+
+    <div id="star-counter">
+      <span class="gray-counter">7</span>
+    </div>
+
+
+  </div>
+
+  <div id="mailbox-cells">
+    <h3 class="mail-text"><%= fa_icon "flag", class: "mailbox-icons" %>Flagged
+    </h3>
+
+    <div id="flagged-counter">
+      <span class="gray-counter">13</span>
+    </div>
+
+
+
+  </div>
+
+  <div id="mailbox-cells">
+    <h3 class="mail-text"><%= fa_icon "paper-plane", class: "mailbox-icons" %>Sent
+    </h3>
+
+    <div id="sent-counter">
+      <span class="gray-counter">284</span>
+    </div>
+
+
+  </div>
+
+  <div id="mailbox-cells">
+    <h3 class="mail-text"><%= fa_icon "trash", class: "mailbox-icons" %>Deleted
+    </h3>
+
+    <div id="star-counter">
+      <span class="gray-counter">6</span>
+    </div>
+
+
+
+  </div>
+
+  <div id="mailbox-cells">
+    <p>More <span>&#8964;</span> </p>
+  </div>
+
+
+
+</div>
+
+</div>
+
+<div class="right">
+
+  <div id="login-container">
+
+    <div id="username">
+      <h3 class="login-text"><%= fa_icon "user", class: "fa-login" %>Username
+      </h3>
+    </div>
+
+    <div id="password">
+      <h3 class="login-text"><%= fa_icon "lock", class: "fa-login" %>Password
+      </h3>
+    </div>
+  </div>
+
+  <div id="login-btn">
+    <h1>log in</h1>
+  </div>
+
+  <div class="profile-container">
+    <div id="stark">
+      <div id="stark-photo"></div>
+      <div><h3>Arya Stark</h3></div>
+    </div>
+
+    <div id="like-button">
+      <%= fa_icon "heart", class: "profile-btn" %>
+      <div><p>2,719</p></div>
+    </div>
+    <div id="friends-button">
+      <%= fa_icon "users", class: "profile-btn" %>
+      <div><p>5,386</p></div>
+    </div>
+    <div id="views-button">
+      <%= fa_icon "eye", class: "profile-btn" %>
+      <div><p>24,953</p></div>
+    </div>
+
+  </div>
+
+
+  <div class="date-container">
+
+    <div id="date"><%= fa_icon "calendar-plus-o", class: "calendar-icon" %><h3>January 25, 2013</h3></div>
+    
+    <div id="new-event">
+      <div><%= fa_icon "map-marker" %> </div>
+      <div><p>winterfell</p></div>
+    </div>
+
+    <div id="add-event"><div><%= fa_icon "pencil-square-o", class: "add-button" %> </div></div>
+
+    <div id="comment"><%= fa_icon "comment", class: "comment-button" %></div>
+  </div>
+
+  <div id="event-btn"><h1>add event</h1></div>
+
+  <div class="time-container">
+    <div id="time"><h3>Time is Money!</h3></div>
+    <div id="add-sign"><h3>+</h3></div>
+    <div id="clock">
+        <h3>05</h3>
+        <div>:</div>
+        <h3>24</h3>
+        <div>:</div>
+        <h3>19</h3>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+</body>
+</html>

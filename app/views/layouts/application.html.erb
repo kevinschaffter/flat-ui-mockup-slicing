@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UiDesign</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+
+    <script src="https://use.typekit.net/vtd0ish.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
