@@ -4,7 +4,7 @@ $header-text: #f1f1f3;
 
 body {
   background-color: #eaedf1;
-  padding: 60px 60px;
+  padding: 60px;
 }
 
 p {
@@ -74,6 +74,7 @@ h3 {
   background: #00b0cf;
   margin-right: 50px;
   text-align: center;
+  border-radius: 3px 3px 0px 0px;
 }
 
 #video-box:before {
@@ -95,6 +96,7 @@ h3 {
   background: #202226;
   float: left;
   text-align: center;
+  border-radius: 0px 0px 0px 3px;
 }
 
 .fa-pause {
@@ -109,6 +111,7 @@ h3 {
   height: 50px;
   background: #213036;
   float: left;
+  border-radius: 0px 0px 3px 0px;
 }
 
 #volume-bar {
@@ -223,6 +226,7 @@ h3 {
   border-bottom: 1px solid #eaedf1;
   padding-top: 21px;
   padding-left: 25px;
+  border-radius: 0px 0px 3px 3px;
 }
 
 #gross-revenue p span {
@@ -252,6 +256,7 @@ h3 {
   height: 40px;
   background: $dark-header;
   padding-top: 13px;
+  border-radius: 3px 3px 0px 0px;
 }
 
 #percentage-box {
@@ -314,6 +319,7 @@ h3 {
   background: #FFF;
   text-align: center;
   float: left;
+  border-radius: 0px 0px 0px 3px;
 }
 
 .tasks-container p {
@@ -349,6 +355,7 @@ h3 {
   float: left;
   border-top: 1px solid #eaedf1;
   border-right: 1px solid #eaedf1;
+  border-radius: 0px 0px 3px 0px;
 }
 
 
@@ -365,6 +372,7 @@ h3 {
   background: $dark-header;
   padding-top: 13px;
   text-align: center;
+  border-radius: 3px 3px 0px 0px;
 }
 
 #mailbox-cells {
@@ -374,6 +382,11 @@ h3 {
   padding-top: 13px;
   text-align: left;
   border-bottom: 1px solid #eaedf1;
+}
+
+#mailbox-cells:last-child {
+  @extend #mailbox-cells;
+  border-radius: 0px 0px 3px 3px;
 }
 
 #inbox-counter {
@@ -463,6 +476,7 @@ h3 {
 
 .right {
   float: left;
+  margin-bottom: 60px;
 }
 
 #login-container {
@@ -521,6 +535,7 @@ h3 {
   width: 280px;
   height: 128px;
   background: #FFF;
+  border-radius: 3px 3px 0px 0px;
 
 }
 
@@ -547,12 +562,20 @@ h3 {
 
 }
 
+#stark p {
+  margin-top: 1px;
+  color: #c0c5cb;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 #like-button {
     width: 93.2px;
     height: 62px;
     background: #35bad3;
     text-align: center;
     float: left;
+    border-radius: 0px 0px 0px 3px;
 }
 
 
@@ -564,6 +587,7 @@ h3 {
 #views-button {
   @extend #like-button;
   background: #3bbaa6;
+  border-radius: 0px 0px 3px 0px;
 }
 
 .fa.profile-btn {
@@ -755,10 +779,23 @@ h3 {
   margin-left: 28px;
 }
 
-.time-text p {
+#hour {
   color: white;
   text-transform: uppercase;
   font-size: 11px;
-  margin-left: 13px;
+  margin-left: 36px;
+  position: relative;
+  top: -10px;
+  display: inline;
+}
+
+#clock p:nth-child(7) {
+  @extend #hour;
+  left: 25px;
+}
+
+#clock p:nth-child(8) {
+  @extend #hour;
+  left: 52px;
 }
 
