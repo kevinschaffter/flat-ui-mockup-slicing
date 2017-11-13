@@ -176,7 +176,6 @@ h3 {
 }
 
 .progress-bars div {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -189,10 +188,65 @@ h3 {
 }
 
 #one {
-  height: 3%;
+  height: 40%;
   background: #1fbba6;
-
 }
+
+#two {
+  height: 60%;
+  background: #1fbba6;
+}
+
+#three {
+  height: 45%;
+  background: #1fbba6;
+}
+
+#four {
+  height: 70%;
+  background: #1fbba6;
+}
+
+#five {
+  height: 50%;
+  background: #1fbba6;
+}
+
+#six {
+  height: 80%;
+  background: #1fbba6;
+}
+
+#seven {
+  height: 55%;
+  background: #1fbba6;
+}
+
+#eight {
+  height: 40%;
+  background: #1fbba6;
+}
+
+#nine {
+  height: 70%;
+  background: #1fbba6;
+}
+
+#ten {
+  height: 50%;
+  background: #1fbba6;
+}
+
+#eleven {
+  height: 80%;
+  background: #1fbba6;
+}
+
+#twelve {
+  height: 60%;
+  background: #1fbba6;
+}
+
 
 #inquiries h2 {
   float: right;
@@ -536,7 +590,6 @@ h3 {
   height: 128px;
   background: #FFF;
   border-radius: 3px 3px 0px 0px;
-
 }
 
 #stark-photo {
