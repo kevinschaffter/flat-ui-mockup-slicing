@@ -1,24 +1,3 @@
-# README
+# HTML/CSS Recreation UI design photo.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ [original static mock-up](https://d13yacurqjgara.cloudfront.net/users/165589/screenshots/947782/attachments/107093/flat-ui.png)
